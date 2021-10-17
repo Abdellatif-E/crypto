@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.app{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+.main{
+    flex: 0.8;
+    width: 100%;
+}
+
+.routes{
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    background-color: black;
+}
+
+.logo{
+    margin:0 0 0 15px;
+    margin-right: 20px;
+}
+
+.m{
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.link{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+}
+
+.log  {
+   color: white;
+}
+
+.exchange-image{
+    margin: 0px 10px !important;
+}
+
+.crypto-card-container{
+    min-height: 65vh ;
+    margin: 20px;
+}
+
+.crypto-card{
+    min-width: 250px;
+}
+
+.crypto-card .crypto-image{
+    width:35px;
+}
+
+
+.footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+.exCont{
+background-color: white;
+margin: 5px;
+padding: 5px;
+border-radius: 5px;
+}
+
+.first_source_container{
+background-color: gray;
+width: 600px;
+height: 400px;
+border-radius: 25px;
+}
+
+.cont{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.c_title{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+}
+
+
+
+
+.w{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.exh{
+display: flex;
+height: 270px;
+background-color: lightgray;
+border-radius: 15px;
+width: 100%;
+justify-content: center;
+
+}
+
+
+.cardT{
+   display: flex;
+   justify-content: center;
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.b{
+width: 600px;
+}
+
+
+.mainCont{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rec{
+    margin-top: 10px;
+background-color: lightskyblue;
+width: 82%;
+height: 250px;
+border-radius: 15px;
+}
+
+.rec p{
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.rec span{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+}
