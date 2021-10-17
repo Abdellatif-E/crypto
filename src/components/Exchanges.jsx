@@ -1,5 +1,5 @@
 import React from 'react';
-import { Collapse, Row, Col, Typography, Avatar } from 'antd';
+import { Collapse, Row, Col, Typography } from 'antd';
 import { poloNameDataHandler , poloVolDataHandler , binaVolDataHandler , binaNameDataHandler, binarankDataHandler, poloRankDataHandler, poloYearDataHandler, binaYearDataHandler } from '../services/coingeckoAPI';
 import { useGetExchangesQuery } from '../services/cryptoApi';
 
@@ -7,7 +7,7 @@ const { Text } = Typography;
 const { Panel } = Collapse;
 
 const Exchanges = () => {
-  const { data, isFetching } = useGetExchangesQuery(2);
+  const { isFetching } = useGetExchangesQuery(2);
 
   if (isFetching) return null;
 

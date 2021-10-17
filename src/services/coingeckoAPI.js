@@ -23,7 +23,7 @@ function makeHttpObject() {
     export function ethereumVolDataHandler() {
         var raw_data_string = ethereumGetData();
         var data = JSON.parse(raw_data_string);
-        var vol = data.tickers[0].volume;
+        var vol = data.tickers[0].last;
         return vol;
     }
 
@@ -58,8 +58,14 @@ function makeHttpObject() {
 //////Fetch the price of bitcoin binance
     const btc_binance = 'https://api.coingecko.com/api/v3/exchanges/binance/tickers?coin_ids=bitcoin';
 
+
+    function biHttpObject() {
+        try { return new XMLHttpRequest(); }
+        catch (error) { }
+    }
+
     function bitcoinGetDataBinance() {
-        var request = makeHttpObject();
+        var request = biHttpObject();
         request.open("GET", btc_binance, false);
         request.send(null);
       //  console.log(request.responseText);
@@ -85,6 +91,7 @@ function makeHttpObject() {
     //////Fetch the value of Bitcoin Poloniex
     const api_url = 'https://api.coingecko.com/api/v3/exchanges/poloniex/tickers?coin_ids=bitcoin';
 
+    
   
     function bitcoinGetDataPoloniex() {
         var request = makeHttpObject();

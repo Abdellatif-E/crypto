@@ -5,6 +5,7 @@ import { ethereumDataHandler , ethBDataHandler , bitcoinDataHandlerB , bitcoinDa
 
 const Cryptocurrencies = ({ simplified }) => {
   const count = simplified ? 1 : 100;
+  // eslint-disable-next-line
   const { data: cryptosList, isFetching } = useGetCryptosQuery(count);
 
  
