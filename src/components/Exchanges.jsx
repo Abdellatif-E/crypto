@@ -13,7 +13,7 @@ const Exchanges = () => {
       <Row>
         <Col span={6}>Exchanges</Col>
         <Col span={6}>24h Trade Volume BTC</Col>
-        <Col span={6}>Markets</Col>
+        <Col span={6}>Rank</Col>
         <Col span={6}>Year</Col>
       </Row>
       <Row>
