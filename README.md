@@ -15,6 +15,9 @@ git clone https://github.com/Abdellatif-E/crypto.git
 npm install
 ```
 
+## Note
+Sometimes the website fail to execute 'send' on 'XMLHttpRequest it's a browser or api problem.
+
 ## Live Demo
 
 (https://cryptochainn.netlify.com)

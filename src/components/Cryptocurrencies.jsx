@@ -1,16 +1,11 @@
 import React from 'react';
 import { Card, Row, Col } from 'antd';
-import { useGetCryptosQuery } from '../services/cryptoApi';
+
 import { ethereumDataHandler , ethBDataHandler , bitcoinDataHandlerB , bitcoinDataHandlerP, bitcoinVolDataHandlerP, bitcoinVolDataHandlerB, ethereumVolDataHandler, ethBVolDataHandler } from '../services/coingeckoAPI';
 
 const Cryptocurrencies = ({ simplified }) => {
-  const count = simplified ? 1 : 100;
+
   // eslint-disable-next-line
-  const { data: cryptosList, isFetching } = useGetCryptosQuery(count);
-
- 
-
-  if (isFetching) return null;
 
   return (
     <>

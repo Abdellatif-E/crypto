@@ -1,12 +1,9 @@
 import React from 'react';
-import { useGetCryptosQuery } from '../services/cryptoApi';
+
 import Cryptocurrencies from './Cryptocurrencies';
 import {buyETH, sellETH, buyBTC, sellBTC } from '../services/coingeckoAPI';
 
 const Homepage = () => {
-  const { isFetching } = useGetCryptosQuery(10);
-
-  if (isFetching) return null;
 
   return (
     <>
