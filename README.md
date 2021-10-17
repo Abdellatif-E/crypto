@@ -20,4 +20,4 @@ Sometimes the website fail to execute 'send' on 'XMLHttpRequest it's a browser o
 
 ## Live Demo
 
-(https://cryptochainn.netlify.com)
+https://cryptochainn.netlify.app
