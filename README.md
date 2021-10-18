@@ -18,9 +18,6 @@ npm install
 npm start
 ```
 
-## Note
-Sometimes the website fail to execute 'send' on 'XMLHttpRequest it's a browser or api problem.
-
 ## Questionnaire
 
 ### Are there any sub-optimal choices( or short cuts taken due to limited time ) in your implementation?
