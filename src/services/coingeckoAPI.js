@@ -16,7 +16,7 @@ function makeHttpObject() {
         var raw_data_string = ethereumGetData();
         var data = JSON.parse(raw_data_string);
       //  var name = data.tickers[0].coin_id;  
-        var price = data.tickers[0].last;
+        var price = data.tickers[0].converted_last.usd;
         return price;
     }
 
