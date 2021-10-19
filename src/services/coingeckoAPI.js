@@ -23,7 +23,7 @@ function makeHttpObject() {
     export function ethereumVolDataHandler() {
         var raw_data_string = ethereumGetData();
         var data = JSON.parse(raw_data_string);
-        var vol = data.tickers[0].last;
+        var vol = data.tickers[0].volume;
         return vol;
     }
 
